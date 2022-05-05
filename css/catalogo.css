@@ -1,0 +1,449 @@
+:root {
+  font-family: "Yu Gothic UI Light";
+  font-size: 16px;
+}
+html .button-shop {
+  background-color: #ff5900;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  color: white;
+  padding: 8px 20px 8px 20px;
+  border-radius: 3px;
+  border: none;
+  font-size: 15px;
+}
+html header #section1 {
+  background-image: url(/img/main/1.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+html header #section1 .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html header #section1 .container .content {
+  display: flex;
+  flex-direction: column;
+  font-size: 27px;
+  font-family: 'Monaco', 'Lucida Sans Unicode', serif;
+  text-align: center;
+  color: white;
+  gap: 10px;
+}
+html header #section1 .container .content .subtitle {
+  font-size: 15px;
+}
+html main .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: calc(clamp(1vw, 0.8rem, 2vw) * 2);
+}
+html main .content .shopby {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  gap: 40px;
+}
+html main .content .shopby h2,
+html main .content .shopby h1 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html main .content .shopby h1 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+html main .content .shopby p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+html main .content .shopby .categories ul {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1vw, 0.8rem, 2vw);
+}
+html main .content .shopby .price {
+  display: flex;
+  flex-direction: column;
+}
+html main .content .shopby .price .filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+html main .content .shopby .color .colors {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+html main .content .shopby .color .colors .color-box {
+  width: 33px;
+  height: 33px;
+  background-color: blue;
+}
+html main .content .shopby .size .sizes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+}
+html main .content .shopby .size .sizes .size-box {
+  border: 1px rgba(128, 128, 128, 0.17) solid;
+  width: 40px;
+  height: 33px;
+}
+html main .content .shopby .size .sizes .size-box p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 100%;
+}
+html main .content .shopby .tag .tags {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+  flex-flow: wrap;
+}
+html main .content .shopby .tag .tag-box {
+  border: 1px rgba(128, 128, 128, 0.17) solid;
+  height: 33px;
+  padding: 10px;
+}
+html main .content .shopby .tag .tag-box p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+html main .content .shopby .compare .compares {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+html main .content .shopby .compare .compares .compare-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+html main .content .shopby .compare .butt {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+html main .content .shopby .compare .butt .clear-all {
+  background-color: transparent;
+  color: #ff5900;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  padding: 8px 20px 8px 20px;
+  border-radius: 3px;
+  border: none;
+  font-size: 15px;
+}
+html main .content .shopby .compare .butt .compare-all {
+  background-color: #615c5c;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  color: white;
+  padding: 8px 20px 8px 20px;
+  border-radius: 3px;
+  border: none;
+  font-size: 15px;
+}
+html main .content .shopby .seller .sellers {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1vw, 0.8rem, 2vw);
+}
+html main .content .shopby .seller .sellers .seller-box {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+html main .content .shopby .seller .sellers .seller-box .img {
+  width: 40%;
+  height: 100px;
+  border: 1px solid;
+  border: 1px rgba(128, 128, 128, 0.17) solid;
+}
+html main .content .shopby .seller .sellers .seller-box .img img {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+}
+html main .content .shopby .seller .sellers .seller-box .content {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+html main .content .shopby .seller .sellers .seller-box .content .title {
+  text-align: start;
+  font-size: 14px;
+}
+html main .content .shopby .seller .sellers .seller-box .content .price {
+  align-items: flex-start;
+  font-weight: 600;
+}
+html main .item-list {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: calc(clamp(1vw, 0.8rem, 2vw) * 2);
+}
+html main .item-list .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+html main .item-list .title p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  height: 100%;
+  gap: 10px;
+}
+html main .item-list .title .selects .select {
+  display: flex;
+  flex-direction: row;
+  gap: clamp(1vw, 0.8rem, 2vw);
+}
+html main .item-list .title .selects .select div {
+  border: 1px rgba(128, 128, 128, 0.17) solid;
+  background-color: rgba(139, 129, 129, 0.233);
+  height: clamp(2rem, 4vw, 3rem);
+  padding: 10px;
+}
+html main .item-list .title .selects .select div p {
+  font-size: clamp(0.8rem, 1vw, 3rem);
+}
+html main .item-list .title .showing {
+  text-align: center;
+  font-size: calc(0.7vw + 0.5em);
+}
+html main .item-list .title .order {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: calc(clamp(1vw, 0.8rem, 2vw) / 2);
+}
+html main .item-list .title .order .order-box {
+  background-color: rgba(128, 128, 128, 0.17);
+  position: relative;
+  width: clamp(1.7rem, 4vw, 2rem);
+  height: clamp(1.7rem, 4vw, 2rem);
+}
+html main .item-list .title .order .order-box i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+html main .item-list .items {
+  width: 100%;
+  display: grid;
+  grid-gap: calc(clamp(1vw, 0.8rem, 2vw) * 1.5);
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+html main .item-list .items .item .img-background {
+  position: relative;
+  height: 450px;
+  width: 100%;
+}
+html main .item-list .items .item .img-background:hover .purchase {
+  visibility: visible;
+  height: 10%;
+  transition: all 0.5s;
+}
+html main .item-list .items .item .img-background .purchase {
+  visibility: hidden;
+  position: absolute;
+  display: block;
+  content: "";
+  top: 50%;
+  bottom: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  height: 0;
+  background-color: rgba(14, 13, 13, 0.514);
+  transition: all 0.3s;
+}
+html main .item-list .items .item .img-background .purchase ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 100%;
+}
+html main .item-list .items .item .img-background .purchase ul li:hover {
+  color: #ff5900;
+}
+html main .item-list .items .item .img-background .purchase ul li:hover:after {
+  border-radius: 10%;
+  background-color: #ff5900;
+  padding: 5px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  position: absolute;
+  display: block;
+  content: "Add to cart";
+  top: 50%;
+  bottom: 0;
+  width: auto;
+  transform: translate(-40%, 100%);
+  height: auto;
+}
+html main .item-list .items .item .img-background .purchase ul li:hover:before {
+  border-radius: 10%;
+  padding: 5px;
+  color: #ff5900;
+  font-weight: 700;
+  text-align: center;
+  position: absolute;
+  display: block;
+  content: "▲";
+  top: 50%;
+  bottom: 0;
+  width: auto;
+  transform: translate(-20%, 20%);
+  height: auto;
+}
+html main .item-list .items .item .img-background .prices {
+  margin-left: 5%;
+  padding-top: 5%;
+  color: #ff5900;
+  width: 15%;
+  position: relative;
+}
+html main .item-list .items .item .img-background .prices .price {
+  font-size: 25px;
+  width: 20%;
+}
+html main .item-list .items .item .img-background .prices .price::first-letter {
+  font-size: 16px;
+}
+html main .item-list .items .item .img-background .prices .oldprice {
+  top: 55%;
+  left: 100%;
+  position: absolute;
+  font-size: 16px;
+  text-decoration-line: line-through;
+}
+html main .item-list .items .item .star i {
+  color: #ff5900;
+}
+html main .item-list .items .item .star i:last-child {
+  color: gray;
+}
+html main .item-list .pages {
+  display: flex;
+  flex-direction: row;
+  gap: calc(clamp(1vw, 0.8rem, 2vw) / 2);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-flow: wrap;
+}
+html main .item-list .pages .page {
+  background-color: rgba(128, 128, 128, 0.17);
+  width: clamp(2.3rem, 5vw, 3rem);
+  height: clamp(2.3em, 5vw, 3rem);
+  position: relative;
+}
+html main .item-list .pages .page p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-weight: 600;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 992px) {
+  html main .content .shopby {
+    width: 30%;
+  }
+}
+@media (max-width: 768px) {
+  html main .content {
+    flex-direction: column;
+    gap: calc(clamp(1vw, 0.8rem, 2vw) * 5);
+  }
+  html main .content .shopby {
+    width: 100%;
+  }
+  html main .content .shopby .color .colors {
+    justify-content: flex-start;
+    gap: clamp(1vw, 0.8rem, 2vw);
+  }
+  html main .content .item-list {
+    width: 100%;
+  }
+  html main .content .item-list .title {
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: calc(clamp(1vw, 0.8rem, 2vw) * 1.4);
+  }
+  html main .content .item-list .title .selects {
+    width: 100%;
+  }
+  html main .content .item-list .title .showing {
+    width: auto;
+    justify-content: flex-start;
+  }
+  html main .content .item-list .title .showing p {
+    justify-content: flex-start;
+    width: auto;
+  }
+  html main .content .item-list .title .order {
+    gap: calc(clamp(1vw, 0.8rem, 2vw));
+    width: 50%;
+    justify-content: flex-start;
+  }
+}
+.orange {
+  color: #ff5900 !important;
+}
+.bg-blue-light {
+  background-color: cadetblue !important;
+}
+.bg-orange {
+  background-color: #ff5900 !important;
+}
+.bg-gray {
+  background-color: gray !important;
+}
+.bg-brown {
+  background-color: brown !important;
+}
+.bg-black {
+  background-color: black !important;
+}
+.bg-pink {
+  background-color: pink !important;
+}
+.white {
+  color: white;
+}
